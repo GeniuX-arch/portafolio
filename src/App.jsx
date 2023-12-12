@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { Navbar,Main,SobreMi,Tecnologias,Experiencia,Footer,AboutMe } from './components/index.js'
+import { Navbar,Main,SobreMi,Tecnologias,Experiencia,Footer } from './components/index.js'
 import { Link, Element } from 'react-scroll';
 import { ProviderTraduction } from './context/traduction.jsx';
 
