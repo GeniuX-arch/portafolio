@@ -1,7 +1,7 @@
 import {icons} from './icons'
 import crudPHP from '../assets/proyectos/crudPHP.png'
 import proyectoAdministrativo from '../assets/proyectos/ProyectoAdministrativo.png'
-import grafo from '../assets/proyectos/grafo.jpg'
+import grafo from '../assets/proyectos/Grafo.jpg'
 
 export const proyectos = [
     {
