@@ -5,6 +5,8 @@ import home from '../assets/navbar/home.svg'
 import lightbulb from '../assets/navbar/light-bulb.svg'
 import experience from '../assets/navbar/experience.svg'
 import {traduction} from '../context/traduction'
+import language from '../assets/navbar/language.svg'
+
 
 
 
@@ -30,7 +32,10 @@ export default function Navbar() {
     <nav className='sm:right-0 p-4 fixed sm:mt-64 z-10'>
       <ul className='flex flex-row sm:flex-col items-center justify-center sm:py-10 m-5  rounded-full bg-purple-900 text-white'>
         <li>
-          <button onClick={traducir}>traduce</button>
+          <button onClick={traducir}>
+            <img src={language} alt="" width={40} className='transform transition-transform hover:scale-110 hover:cursor-pointe'/>
+          </button>
+
       </li>
         <li className='hover:cursor-pointer m-5'>
             <Link to="main" smooth={true} duration={500}>
