@@ -30,7 +30,7 @@ export default function Navbar() {
 
   return (
     <nav className='sm:right-0 p-4 fixed sm:items-center top-1/2 transform -translate-y-1/2 z-10'>
-      <ul className='flex flex-row sm:flex-col items-center justify-center sm:py-10 m-5  rounded-full bg-purple-900 text-white'>
+      <ul className='flex flex-row sm:flex-col sm:items-center justify-center sm:py-10 m-5  rounded-full bg-purple-900 text-white'>
         <li>
           <button onClick={traducir}>
             <img src={language} alt="" width={40} className='transform transition-transform hover:scale-110 hover:cursor-pointe'/>

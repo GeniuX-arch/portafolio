@@ -3,7 +3,6 @@ import { Navbar,Main,SobreMi,Tecnologias,Experiencia,Footer } from './components
 import { Link, Element } from 'react-scroll';
 import { ProviderTraduction } from './context/traduction.jsx';
 
-
 function App() {
   return (
 <div className=''>
