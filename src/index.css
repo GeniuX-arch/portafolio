@@ -4,16 +4,30 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-/* Personaliza la barra de desplazamiento para navegadores webkit */
 ::-webkit-scrollbar {
-    width: 12px; /* Ancho de la barra de desplazamiento */
-  }
+  width: 12px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color:#4C1D95; /* Reemplaza bg-purple-600 con el valor hexadecimal del color */
   
-  ::-webkit-scrollbar-thumb {
-    background-color: #4F46E5; /* Color del pulgar de la barra de desplazamiento */
-    border-radius: 6px; /* Borde redondeado del pulgar de la barra de desplazamiento */
-  }
   
-  ::-webkit-scrollbar-track {
-    background-color: #F3F4F6; /* Color del fondo de la barra de desplazamiento */
-  }
+  border-radius: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #212021;
+}
+
+/* Personalización de la barra de desplazamiento para Mozilla (Firefox) */
+html {
+  scrollbar-color: #4C1D95 #212021; /* Reemplaza bg-purple-600 con el valor hexadecimal del color */
+  scrollbar-width: thin;
+}
+                
+/* Personalización de la barra de desplazamiento para Microsoft Edge */
+body {
+  scrollbar-color: #4C1D95 #F3F4F6; /* Reemplaza bg-purple-600 con el valor hexadecimal del color */
+  scrollbar-width: thin;
+
+}
