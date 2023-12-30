@@ -11,7 +11,7 @@ export default function Experiencia() {
       {proyectos.map((value,index)=>
 
     <a key={index} href={value.url} target="_blank"className='m-64'>
-    <div  className='my-32 p-1 rounded-xl flex flex-cold lg:flex-row g-black transform transition-transform hover:scale-110 hover:cursor-pointer'>
+    <div  className='my-32 p-1 rounded-xl flex flex-col lg:flex-row g-black transform transition-transform hover:scale-110 hover:cursor-pointer'>
         <div className='lg:w-2/3  '>
           <img src={value.imagen} alt="" />
         </div>
